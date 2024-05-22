@@ -1,0 +1,51 @@
+/* practice3.external */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "맑은 고딕", "돋움";
+    font-size: 0.75em;
+    color: #333;
+}
+.tab-box {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+
+    width: 100px;
+    height: 22px;
+    border: 1px solid #999;
+    background-color: #ccc;
+
+    text-align: center;
+    padding-top: 3px;
+
+    margin-right: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.tab-view {
+    display: inline-block;
+    border: 2px solid #ccc;
+    height: 220px;
+    padding: 3;
+    text-align: center;
+    line-height: 200px;
+    margin-top: -1px;
+    width: 518px;
+}
+.selected:hover {
+	background-color: #fc6;
+	cursor: pointer;
+}

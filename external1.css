@@ -1,0 +1,41 @@
+/* practice1.external */
+* {
+	margin: 0;
+	padding: 0
+}
+body {
+	font-family: "맑은 고딕", "돋움";
+	font-size: 0.75em; 
+	color: #333;
+}
+.tbl-ex {
+	margin: 10px auto;
+}
+
+td, .tbl-ex, th {
+	border: 1px solid #333;
+	border-collapse: collapse;
+	border-left: 0;
+	border-right: 0;
+}
+th, td {
+	padding: 8px;
+}
+th {
+	background-color: #999;
+	font-size: 1.1em;
+	color: #fff;
+	border-top: 2px;
+	border-bottom: 2px;
+}
+td {
+	border-style: dotted;
+}
+
+tr:nth-child(even) {
+	background-color: #e8ecf6;
+}
+tr:hover {
+	background-color: #fc6;
+	cursor: pointer;
+}
